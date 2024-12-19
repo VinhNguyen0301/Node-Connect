@@ -6,7 +6,7 @@
       "contentHash": "573fb73f907eaf3c959c014852852f9c",
       "sourceName": "contracts/Box.sol",
       "solcConfig": {
-        "version": "0.8.28",
+        "version": "0.8.20",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -40,11 +40,11 @@
       ]
     },
     "/Users/4dvnpartner-vinh/Desktop/personal-sources/Node-Connect/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1734427684211,
+      "lastModificationDate": 1734586629180,
       "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
-        "version": "0.8.28",
+        "version": "0.8.20",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -78,11 +78,11 @@
       ]
     },
     "/Users/4dvnpartner-vinh/Desktop/personal-sources/Node-Connect/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1734427684192,
+      "lastModificationDate": 1734586628912,
       "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
-        "version": "0.8.28",
+        "version": "0.8.20",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {
@@ -118,7 +118,7 @@
       "contentHash": "9a36ed675970024ec671a08f66df1a0a",
       "sourceName": "contracts/access-control/Auth.sol",
       "solcConfig": {
-        "version": "0.8.28",
+        "version": "0.8.20",
         "settings": {
           "evmVersion": "paris",
           "optimizer": {

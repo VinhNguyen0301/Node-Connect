@@ -12,5 +12,3 @@ export type { Auth } from "./contracts/access-control/Auth";
 export { Auth__factory } from "./factories/contracts/access-control/Auth__factory";
 export type { Box } from "./contracts/Box";
 export { Box__factory } from "./factories/contracts/Box__factory";
-export type { Lock } from "./contracts/Lock";
-export { Lock__factory } from "./factories/contracts/Lock__factory";

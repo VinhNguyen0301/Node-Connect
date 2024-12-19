@@ -3,4 +3,3 @@
 /* eslint-disable */
 export * as accessControl from "./access-control";
 export { Box__factory } from "./Box__factory";
-export { Lock__factory } from "./Lock__factory";

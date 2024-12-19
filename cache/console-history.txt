@@ -1,3 +1,12 @@
+(await box.retrieve()).toString()
+await box.store(42);
+const box = await Box.attach('0x0f6dB6cE855ACA0bd0a5da62a2ECfC8dfdBaDd46'); // Use the deployed address
+await box.store(42);
+const Box = await ethers.getContractFactory('Box');
+wq
+'0'
+> (await ethers.provider.getBalance(accounts[0])).toString()
+accounts = (await ethers.getSigners()).map(signer => signer.address)
 43
 Vinh
 await box.retrieve()
