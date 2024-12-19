@@ -130,4 +130,4 @@ dist
 .pnp.*
  
 #Secrets json
-.secrets.json
+secrets.json
