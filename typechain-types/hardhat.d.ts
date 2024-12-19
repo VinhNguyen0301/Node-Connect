@@ -14,6 +14,14 @@ import * as Contracts from ".";
 declare module "hardhat/types/runtime" {
   interface HardhatEthersHelpers extends HardhatEthersHelpersBase {
     getContractFactory(
+      name: "Ownable",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Ownable__factory>;
+    getContractFactory(
+      name: "Auth",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Auth__factory>;
+    getContractFactory(
       name: "Box",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Box__factory>;
@@ -23,6 +31,16 @@ declare module "hardhat/types/runtime" {
     ): Promise<Contracts.Lock__factory>;
 
     getContractAt(
+      name: "Ownable",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Ownable>;
+    getContractAt(
+      name: "Auth",
+      address: string | ethers.Addressable,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Auth>;
+    getContractAt(
       name: "Box",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -34,6 +52,14 @@ declare module "hardhat/types/runtime" {
     ): Promise<Contracts.Lock>;
 
     deployContract(
+      name: "Ownable",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Ownable>;
+    deployContract(
+      name: "Auth",
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Auth>;
+    deployContract(
       name: "Box",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.Box>;
@@ -42,6 +68,16 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.Lock>;
 
+    deployContract(
+      name: "Ownable",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Ownable>;
+    deployContract(
+      name: "Auth",
+      args: any[],
+      signerOrOptions?: ethers.Signer | DeployContractOptions
+    ): Promise<Contracts.Auth>;
     deployContract(
       name: "Box",
       args: any[],

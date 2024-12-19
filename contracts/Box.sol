@@ -15,8 +15,7 @@ contract Box is Ownable {
 
     // Stores a new value in the contract
     function store(uint256 value) public onlyOwner {
-        // Require that the caller is registered as an administrator in Auth
-
+   
         _value = value;
         emit ValueChanged(value);
     }
