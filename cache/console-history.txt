@@ -1,3 +1,6 @@
+await box.store(96);
+(await box.retrieve()).toString()
+await box.store(69);
 (await box.retrieve()).toString()
 await box.store(42);
 const box = await Box.attach('0x0f6dB6cE855ACA0bd0a5da62a2ECfC8dfdBaDd46'); // Use the deployed address
