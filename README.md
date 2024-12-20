@@ -99,7 +99,6 @@ Creating a smart contract may seem simple, but don’t forget — your code is a
 ---
 
 ## Contributors
-- **Your Name**: Blockchain developer and author of this project.
-- **Mar Sino**: Contributor and supporter.
+- **Mar Sino**: Blockchain developer and author of this project.
 
 Feel free to explore the code and scripts to understand the entire lifecycle of deploying and testing smart contracts on Ethereum!
