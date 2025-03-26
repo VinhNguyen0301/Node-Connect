@@ -1,25 +1,22 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
+import "@nomicfoundation/hardhat-ethers";
 
-require("@nomicfoundation/hardhat-ethers");
+// Import secrets
+const { ALCHEMY_API_KEY, PRIVATE_KEY } = require("./secrets.json");
 
-const { alchemyApiKey, mnemonic } = require("./secrets.json");
-
-module.exports = {
-  solidity: {
-    version: "0.8.20", // Match with your contract version
-  },
+const config: HardhatUserConfig = {
+  solidity: "0.8.20",  // Using your specified version
   defaultNetwork: "sepolia",
   networks: {
     sepolia: {
-      url: `https://eth-sepolia.g.alchemy.com/v2/${alchemyApiKey}`,
-      accounts: { mnemonic: mnemonic },
-    },
+      url: `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
+      accounts: [PRIVATE_KEY]
+    }
   },
-};
-
-const config: HardhatUserConfig = {
-  solidity: "0.8.28",
+  etherscan: {
+    apiKey: "767D5YCG1Y2YHT6DP9G4RM8N3FIMSF2PAI",
+  },
 };
 
 export default config;

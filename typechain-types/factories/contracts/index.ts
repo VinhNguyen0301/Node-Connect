@@ -3,3 +3,4 @@
 /* eslint-disable */
 export * as accessControl from "./access-control";
 export { Box__factory } from "./Box__factory";
+export { SMARToken__factory } from "./SMARToken__factory";

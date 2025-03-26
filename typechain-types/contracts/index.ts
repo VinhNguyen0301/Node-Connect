@@ -4,3 +4,4 @@
 import type * as accessControl from "./access-control";
 export type { accessControl };
 export type { Box } from "./Box";
+export type { SMARToken } from "./SMARToken";

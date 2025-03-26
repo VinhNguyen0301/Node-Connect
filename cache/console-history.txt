@@ -1,3 +1,27 @@
+console.log("Your Balance:", ethers.formatUnits(balance, 18));
+const balance = await smar.balanceOf(deployer);
+const deployer = "0xe271A444DF2d20E5757Ed06a953cd15A6d3Ca96B";
+console.log("Token Name:", name);
+const name = await smar.name();
+const smar = await ethers.getContractAt("SMARToken", "0xEF47B8eb033B6d233Eb2B91a150DBb7e9f72F113");
+const balance = await smar.balanceOf(deployer);
+const deployer = "0xe271A444DF2d20E5757Ed06a953cd15A6d3Ca96B";
+const smar = await ethers.getContractAt("SMARToken", "0xe271A444DF2d20E5757Ed06a953cd15A6d3Ca96B");
+console.log("Deployer Balance:", ethers.formatUnits(balance, 18));
+const balance = await smar.balanceOf(deployer);
+const deployer = "0xe271A444DF2d20E5757Ed06a953cd15A6d3Ca96B";
+const smar = await ethers.getContractAt("SMARToken", "0xe271A444DF2d20E5757Ed06a953cd15A6d3Ca96B");
+console.log("Deployer Balance:", ethers.formatUnits(balance, 18));
+const balance = await smar.balanceOf(deployer);
+const deployer = "0xe271A444DF2d20E5757Ed06a953cd15A6d3Ca96B";
+const smar = await ethers.getContractAt("SMARToken", "0xe271A444DF2d20E5757Ed06a953cd15A6d3Ca96B");
+console.log(await smar.interface.fragments);
+console.log("Your Balance:", balance.toString());
+const balance = await smar.balanceOf("0xe271A444DF2d20E5757Ed06a953cd15A6d3Ca96B")
+console.log("Total Supply:", totalSupply.toString());
+const totalSupply = await smar.totalSupply();
+const smar = await ethers.getContractAt("SMARToken", "0xc00CBe81B09f5d40733b0bAc346b9f0e819A0e11");
+await ethers.provider.getCode("0xEF47B8eb033B6d233Eb2B91a150DBb7e9f72F113")
 await box.store(96);
 (await box.retrieve()).toString()
 await box.store(69);
